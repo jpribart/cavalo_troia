@@ -1,0 +1,43 @@
+.eventos {
+	width: 100%;
+	height: auto;
+	background-color: #f2f2f2;
+}
+
+.eventos-content {
+	width: 100%;
+	height: auto;
+	z-index: 9999;
+	padding: 40px 0px;
+}
+
+.eventos-content h1 {
+	color: #000d27;
+	font-size: 2.4em;
+	font-weight: 600;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.eventos-circle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.evento-img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background-color: #000d27;
+	margin-bottom: 10px;
+}
+
+.eventos-circle span {
+	font-weight: 500;
+	font-weight: 1.6em;
+}
