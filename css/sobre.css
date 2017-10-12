@@ -1,0 +1,38 @@
+.sobre {
+	width: 100%;
+	height: auto;
+}
+
+.sobre-content {
+	width: 100%;
+	height: auto;
+}
+
+.sobre-content h1 {
+	color: #000d27;
+	font-size: 2.4em;
+	font-weight: 600;
+}
+
+.wrapper-sobre-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.ajsajs {
+	width: 40%;
+}
+
+.equipe-content {
+	width: 54%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.equipe-content img {
+	width: 100%;
+	border: 6px #000d27 solid;
+	margin-bottom: 7px;
+}

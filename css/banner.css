@@ -1,0 +1,42 @@
+.banner {
+	width: 100%;
+	height: 500px;
+	background-color: #000d27;
+	position: relative;
+}
+
+.image {
+	width: 100%;
+	height: 500px;
+	background-image: url('../img/back.png');
+	position: absolute;
+}
+
+.btn {
+	width: 18%;
+	background-color: #ffa60d;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #ffa60d;
+}
+
+.banner-content {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+	position: relative;
+}
+
+.banner-content h1 {
+	font-size: 2.4em;
+	font-weight: 600;
+}
+
+.banner-content span {
+	font-size: 1.2em;
+	font-weight: 400;
+}
